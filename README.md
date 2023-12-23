@@ -71,6 +71,17 @@ N8N_SMTP_SENDER=user@example.com
 N8N_SMTP_SSL=true
 ```
 
+##  Create data folder#
+Create the Docker volume that is defined as n8n_data. n8n will save the database file from SQLite and the encryption key in this volume.
+
+``` bash
+sudo docker volume create n8n_data
+```
+Create a volume for the Traefik data, This is defined as traefik_data.
+
+``` bash
+sudo docker volume create traefik_data
+```
 Run n8n:
 
 ``` bash
