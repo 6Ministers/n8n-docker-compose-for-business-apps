@@ -40,8 +40,9 @@ Go to the catalog
 cd n8n
 ```
 
-1. To change the domain in the `.env` to your own
-2. Add information from your SMTP provider
+1. To change the domain ana subdomain in the `.env` to your own
+2. [To specify the time zone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
+3. Add information from your SMTP provider
 
 ``` bash
 # The top level domain to serve from
@@ -75,7 +76,6 @@ Run n8n:
 ``` bash
 docker-compose up -d
 ```
-
 
 ## Usage
 
