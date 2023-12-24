@@ -4,9 +4,6 @@
 
 **Before starting the instance, direct the domain to the ip of the server where n8n will be installed!**
 
-Documentation
-https://docs.n8n.io/hosting/installation/server-setups/docker-compose/#1-install-docker
-
 Run for Ubuntu 22.04
 
 ``` bash
@@ -139,3 +136,7 @@ sudo docker-compose down && sudo docker-compose up -d
 docker-compose down
 ```
 
+## Documentation
+https://docs.n8n.io/hosting/installation/server-setups/docker-compose/#1-install-docker
+
+https://github.com/n8n-io/n8n
